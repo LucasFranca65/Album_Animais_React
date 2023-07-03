@@ -28,10 +28,10 @@ function MyCards(props){
               />
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h5" component="h2">
-                  '{card.title}'
+                  {card.title}
                 </Typography>
                 <Typography>
-                  '{card.text}''
+                  {card.text}
                 </Typography>
               </CardContent>
               <CardActions>
